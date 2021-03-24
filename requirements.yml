@@ -1,0 +1,3 @@
+---
+- name: php-fpm
+  src: https://oss.help/ansible/pub/roles/p/php-fpm-stable.tar.gz

@@ -1,0 +1,5 @@
+---
+version: 1.10.5
+composer_url: "https://getcomposer.org/download/{{ version }}/composer.phar"
+composer_sum: "sha256:https://getcomposer.org/download/{{ version }}/composer.phar.sha256sum"
+composer_path: "/usr/local/bin/composer"

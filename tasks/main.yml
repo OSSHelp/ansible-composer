@@ -1,0 +1,8 @@
+---
+- name: install composer
+  get_url:
+    url: "{{ composer_url }}"
+    dest: "{{ composer_path }}"
+    checksum: "{{ composer_sum }}"
+    mode: 0755
+  when: not ansible_check_mode
